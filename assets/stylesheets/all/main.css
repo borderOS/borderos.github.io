@@ -11,6 +11,7 @@ nav{
     padding: 1rem;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 nav .left h1 a, nav .left h1{
