@@ -1,0 +1,38 @@
+#navandbanner video{
+    min-width: 100%;
+    max-width: 500%;
+    max-height: min-content;
+}
+
+#navandbanner{
+    height: 45%;
+    overflow: hidden;
+}
+
+.content{
+    position: absolute;
+    width: 100%;
+    margin-top: 25rem;
+    text-align: center;
+    color: white;
+    background: rgba(22, 22, 22, 0.5);
+    padding-bottom: 2rem;
+}
+
+.content h1.title{
+    font-size: xx-large;
+}
+
+.content a.button{
+    color: black;
+    z-index: 22;
+    padding: 1rem;
+    font-size: large;
+    background-color: rgba(222, 222, 222, 1);
+    text-decoration: none;
+    border-radius: 25rem;
+}
+
+.content a.button:hover{
+    background-color: rgba(255, 255, 255, 0.75);
+}
